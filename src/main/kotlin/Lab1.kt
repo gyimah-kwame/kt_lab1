@@ -1,19 +1,23 @@
 
 fun main(arg: Array<String>) {
 
+    //question one
     println("Hello, World!")
 
+    //question two
     var hello = "Hello"
 
     println(hello)
 
 
+    //question three
     for (i in -5..5) {
         println("3x - 1 => 3($i) -1  => ${calculate(3, i, -1)}")
     }
 
     println("************")
 
+    //question 4
     for (i in 0..20) {
         val x = calculate(3, i, 5);
         val y = calculate(4, i, 2);
@@ -25,6 +29,7 @@ fun main(arg: Array<String>) {
 
     println("\n")
 
+    //question five
     intersection(3, 5, 4, 2)
     intersection(2, 1, 3, 3)
     intersection(-2,3,3,-2)
